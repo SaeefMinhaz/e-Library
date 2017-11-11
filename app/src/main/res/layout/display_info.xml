@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp">
+
+    <!--<SearchView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+    <!--</SearchView>-->
+
+    <Button
+        android:id="@+id/btnece"
+        android:text="ECE"
+        android:onClick="ECE"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/btncse"
+        android:text="CSE"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnbba"
+        android:text="BBA"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/wishlist"
+        android:text="Wishlist"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/issued_books"
+        android:text="Issued Books"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user_pc.splashscreen2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ist_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.DisplayScreen" />
+        <activity android:name=".activity.Register" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.SemesterTabActivity" />
+        <activity
+            android:name=".activity.NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".books.BookIssueActivity" />
+        <activity android:name=".books.OxfordEnglish" />
+        <activity android:name=".books.HighSchoolEnglish" />
+        <activity android:name=".activity.Wishlist" />
+        <activity android:name=".activity.IssuedBooks"></activity>
+    </application>
+
+</manifest>

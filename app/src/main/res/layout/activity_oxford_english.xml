@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user_pc.splashscreen2.books.OxfordEnglish">
+
+
+    <RelativeLayout
+        android:id="@+id/lTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/book_image"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/book" />
+
+        <TextView
+            android:id="@+id/book_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/book_image"
+            android:text="Oxford English for Computing"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/book_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/book_name"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@+id/book_image"
+            android:text=""
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/book_edition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/book_info"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@+id/book_image"
+            android:text="4th Edition"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_middle"
+        android:layout_below="@+id/lTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/book_writter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Writter"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/book_writter"
+            android:text="Bocckner, Keith and Brown"
+            android:layout_marginTop="18dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/publishers"
+        android:layout_below="@+id/layout_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/book_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Publisher"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/book_publish"
+            android:text=""
+            android:layout_marginTop="8dp"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/publishers"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/wishlist"
+            android:text="Add to Wishlist"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/issue_book"
+            android:text="Issue Book"
+            android:layout_below="@+id/wishlist"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/download_pdf"
+            android:text="Download PDF"
+            android:onClick="downloadPdf"
+            android:background="@color/colorPrimary"
+            android:layout_below="@+id/issue_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>

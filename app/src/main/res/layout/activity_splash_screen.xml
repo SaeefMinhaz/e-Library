@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user_pc.splashscreen2.activity.SplashScreen"
+    >
+
+
+    <ImageView
+        android:id="@+id/pic_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ist_logo"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IST LIBRARY"
+        android:textSize="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Application"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="of"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="170dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Library Management of IST"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="65dp"/>
+
+
+
+</RelativeLayout>
